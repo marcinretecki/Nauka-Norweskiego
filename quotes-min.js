@@ -1,0 +1,1 @@
+var quotes=[{q:"Du trenger ikke mer tid i dagen din, du trenger å bestemme.",t:"Nie potrzebujesz więcej czasu w Twoim dniu, potrzebujesz zdecydować.",a:"Seth Godin"},{q:"",t:"",a:""}];shuffleArray=function(e){for(var r=e.length,t,a;r>0;)t=Math.floor(Math.random()*r),r--,a=e[r],e[r]=e[t],e[t]=a;return e};
