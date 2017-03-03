@@ -131,8 +131,8 @@ var quotes = [
     },
 
     {
-      q: 'The goal isn’t important, but learning to stick to things when you’re uncomfortable is extremely important.',
-      t: 'Cel nie jest ważny, ale nauczenie się trzymania się rzeczy, kiedy jest nieprzyjemnie, jest niezwykle ważne.',
+      q: 'Målet er ikke viktig, men å lære seg å holde fast ved ting når det er ubehagelig, er ekstremt viktig.',
+      t: 'Cel nie jest ważny, ale nauczenie się trzymania się rzeczy, kiedy jest to nieprzyjemnie, jest niezwykle ważne.',
       a: 'Leo Babauta'
     },
 
