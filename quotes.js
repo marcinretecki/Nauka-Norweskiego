@@ -15,7 +15,7 @@ var quotes = [
     {
       q: 'Handling er den grunnleggende nøkkelen til all suksess.',
       t: 'Działanie jest podstawowym kluczem do całego sukcesu.',
-      a: 'Picasso'
+      a: 'Pablo Picasso'
     },
 
     {
@@ -27,13 +27,13 @@ var quotes = [
     {
       q: 'Den som sier at det ikke kan gjøres, bør ikke avbryte den personen som gjør det.',
       t: 'Osoba, która mówi, że tego nie da się zrobić, nie powinna przeszkadzać osobie, która to robi.',
-      a: 'Chinese proverb'
+      a: 'kinesisk ordtak'
     },
 
     {
       q: 'Enhver er sin egen lykkes smed.',
       t: 'Każdy jest kowalem swojego szczęścia.',
-      a: ''
+      a: 'ordtak'
     },
     {
       q: 'De fleste mennesker er akkurat så lykkelige som de har bestemt seg for å være.',
@@ -68,7 +68,7 @@ var quotes = [
     {
       q: 'Sinn er slik som fallskjermer – de fungerer bare når de er åpne.',
       t: 'Umysły są jak spadochrony – działają tylko, gdy są otwarte.',
-      a: 'Ukjent '
+      a: 'ukjent '
     },
 
     {
@@ -115,7 +115,7 @@ var quotes = [
     {
       q: 'Det finnes ingen fremmede her, bare venner du ikke har møtt ennå.',
       t: 'Nie ma tu obcych, tylko przyjaciele, których jeszcze nie spotkałeś.',
-      a: 'W. B. Yeats'
+      a: 'W.B. Yeats'
     },
 
     {
@@ -145,7 +145,7 @@ var quotes = [
     {
       q: 'En ekspert er en person som har gjort alle feil som er mulig å gjøre innen et begrenset felt.',
       t: 'Ekspert to taki człowiek, który popełnił wszystkie błędy, które można popełnić w wąskiej dziedzinie.',
-      a: 'Niels Bohr (duński fizyk i noblista)'
+      a: 'Niels Bohr'
     },
 
     {
