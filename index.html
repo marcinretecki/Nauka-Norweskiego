@@ -33,16 +33,21 @@
 
 <body class="beige">
 
-  <header class="section-dark centered">
-    <h1 class="btn btn-nav">Nauka norweskiego przez motywujące cytaty</h1>
-  </header>
 
-  <div class="section-content centered">
-    <figure id="figure" class="rounded pad-2 beige center" style="width:665px;max-width:100%;"></figure>
+
+
+  <div class="section-content">
+      <div style="width:665px;max-width:100%;" class="center">
+
+        <h1 class="h2 size-2 centered space-4">Nauka norweskiego przez <span class="no-break">motywujące cytaty</span></h1>
+
+        <figure id="figure" class="rounded center pad-2 white"></figure>
+      </div>
+
   </div>
 
 
-<script src="quotes.js"></script>
+<script src="quotes-min.js"></script>
 <script>
 
   function create_random_quote( q ) {
@@ -52,10 +57,10 @@
     single_quote = shuffleArray( q )[0];
 
     r += '<blockquote>';
-    r += '<p class="" lang="no">' + single_quote['q'] + '</p>';
-    r += '<p class="">' + single_quote['t'] + '</p>';
+    r += '<p class="size-4" style="line-height: 1.15; margin-bottom: 2.5rem;" lang="no">' + single_quote['q'] + '</p>';
+    r += '<p class="normal" style="margin-bottom:1.25rem;">' + single_quote['t'] + '</p>';
     r += '</blockquote>';
-    r += '<figcaption>— ' + single_quote['a'] + '</figcaption>';
+    r += '<figcaption style="font-variant:small-caps;font-weight:400">— ' + single_quote['a'] + '</figcaption>';
 
     figure.innerHTML = r;
 
