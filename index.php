@@ -1,11 +1,32 @@
+<?php
+
+  include( stream_resolve_include_path( 'quotes.php' ) );
+
+
+  function create_random_quote( $q ) {
+
+    $r = '';
+    $single_quote = $q[ mt_rand(0, count($q) - 1) ];
+
+    $r .= '<blockquote>';
+    $r .= '<p class="" lang="no">' . $single_quote['q'] . '</p>';
+    $r .= '<p class="">' . $single_quote['t'] . '</p>';
+    $r .= '</blockquote>';
+    $r .= '<figcaption>— ' . $single_quote['a'] . '</figcaption>';
+
+    echo $r;
+
+  };
+
+?>
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="author" content="http://nocnasowa.pl" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Nauka norweskiego</title>
-  <meta name="description" content="Nauka norweskiego." />
+  <title>Nauka norweskiego przez motywujące cytaty</title>
+  <meta name="description" content="Nauka norweskiego przez motywujące cytaty" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link rel="icon" href="/favicon.ico" sizes="16x16" type="image/ico" />
   <link rel="icon" href="/favicon.png" sizes="16x16" type="image/png" />
@@ -14,7 +35,7 @@
   <link rel="stylesheet" href="http://nocnasowa.pl/c/s.css" />
 
   <meta property="og:image" content="http://www.naukanorweskiego.pl/nauka-norweskiego.png" />
-  <meta property="og:title" content="Nauka norweskiego" />
+  <meta property="og:title" content="Nauka norweskiego przez motywujące cytaty" />
   <meta property="og:type" content="article" />
   <meta property="article:publisher" content="https://www.facebook.com/NocnaSowaPL" />
 
@@ -33,10 +54,17 @@
 
 <body>
 
-<div class="section-content centered">
-  <h1>Nauka norweskiego</h1>
-  <p>Wkrótce.</p>
-</div>
+  <div>
+    <h1 class="size-2">Nauka norweskiego przez motywujące cytaty</h1>
+  </div>
+
+  <div class="section-content centered">
+    <figure class="figure-quote rounded" style="width:665px;max-width:100%; margin:0 auto;background:#edeae7;">
+      <?php
+        create_random_quote( $quote );
+      ?>
+    </figure>
+  </div>
 
 </body>
 </html>
